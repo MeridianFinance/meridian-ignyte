@@ -39,13 +39,14 @@ flowchart TB
     CORE --> T2
     CORE --> T3
     CORE --> T4
+    T4 -. "live example" .-> CLAW["YieldClaw<br/>autonomous agent #262 · auto-compound<br/>payments settle, the agent handles the rest"]
 ```
 
 ## The four submissions
 
 | Track | What we demonstrate | Core Meridian engine | Circle products | Folder |
 |---|---|---|---|---|
-| **4 — Agentic Economy** | An AI agent that discovers, negotiates and settles a USDC-EURC purchase, with every counterparty verified on-chain (KYA) | Firmata + Agent OS | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
+| **4 — Agentic Economy** | A **live** autonomous agent (YieldClaw, agent #262) that discovers, settles in USDC-EURC and auto-compounds, every counterparty verified on-chain (KYA). Payments settle, the agent handles the rest. | Firmata + Agent OS + YieldClaw | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
 | **1 — Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC-EURC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
 | **2 — SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC-EURC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
 | **3 — RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC-EURC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
@@ -61,6 +62,17 @@ flowchart TB
 - Broader ecosystem index: [github.com/MeridianFinance/meridian-ecosystem](https://github.com/MeridianFinance/meridian-ecosystem)
 
 The MVPs in this repo are clean demonstration builds. The production protocol source stays private; the demos call our already-deployed contracts and show our Circle integration end to end.
+
+## Beyond the four tracks — the full ecosystem
+
+The four submissions above are slices of a larger stack we already run. We are not naming these as track entries (they fall outside this challenge's scope), but judges asked to see who we really are, so here is the rest of the picture.
+
+- **Enterprise Circle tools, in production, not conceptual.** USYC (Teller whitelist) and StableFX have been live in our stack since 2025. The challenge rules note that most teams will only be able to integrate these gated tools at a conceptual level. We operate with real access already, which is why our RWA and FX flows are demonstrated with the actual products rather than mockups.
+- **Meridian Give** — a charitable-giving layer: merchant round-up at checkout and on-chain donation proofs. It is not a commerce/finance/agentic track, so it is not submitted here, but it is part of the same connected OS and shows the breadth of what the stack powers.
+- **cirBTC support** — we integrate Circle's tokenized BTC alongside stablecoins, broadening treasury and collateral options. Out of scope for a stablecoin commerce challenge, included here only to show Circle-product breadth.
+- **20 Circle products** integrated across the stack in production. The four tracks use a focused subset; the full ecosystem reaches much further.
+
+This is a working ecosystem with eight months of on-chain history, not a hackathon-weekend prototype. The four tracks are where it meets this challenge's themes.
 
 ## Repo structure
 
