@@ -6,7 +6,7 @@
 
 <br/><br/>
 
-# Meridian — The USDC Commerce OS on Arc
+# Meridian — The USDC-EURC Commerce OS on Arc
 
 **One connected stack. Four doorways into the same economy.**
 
@@ -21,7 +21,7 @@ Most hackathon entries are a product. This is an operating system.
 
 Meridian has been building on Arc since day one of Testnet (October 28, 2025): 19 contracts live, 47,800+ on-chain transactions, USYC Teller whitelist granted, 20 Circle products in production. For this challenge we did not build four separate apps. We took the primitives we already run in production and showed how the **same connected stack** answers four very different regional needs.
 
-That is the whole point: **not stacked products, connected ones.** A merchant accepts USDC, the treasury earns on it, payroll streams out of it, an agent transacts against it, and every counterparty is verified by the same trust layer. Change the doorway, the engine stays the same.
+That is the whole point: **not stacked products, connected ones.** A merchant accepts USDC & EURC, the treasury earns on it, payroll streams out of it, an agent transacts against it, and every counterparty is verified by the same trust layer. Change the doorway, the engine stays the same.
 
 ```mermaid
 flowchart TB
@@ -45,10 +45,10 @@ flowchart TB
 
 | Track | What we demonstrate | Core Meridian engine | Circle products | Folder |
 |---|---|---|---|---|
-| **4 — Agentic Economy** | An AI agent that discovers, negotiates and settles a USDC purchase, with every counterparty verified on-chain (KYA) | Firmata + Agent OS | USDC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
-| **1 — Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
-| **2 — SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
-| **3 — RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
+| **4 — Agentic Economy** | An AI agent that discovers, negotiates and settles a USDC-EURC purchase, with every counterparty verified on-chain (KYA) | Firmata + Agent OS | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
+| **1 — Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC-EURC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
+| **2 — SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC-EURC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
+| **3 — RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC-EURC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
 
 \* USYC and StableFX are Circle Enterprise / gated tools. Where testnet access is pending, the integration is shown at architecture and conceptual level, per the challenge rules.
 
@@ -84,6 +84,6 @@ Email: `abdelmouss63@gmail.com`
 
 ## Team
 
-**Meridian Finance Group** — Aziz (CEO) & Fayssal (CTO). Local Leaders, Arc France/Europe chapter. Building the financial OS for USDC commerce on Arc.
+**Meridian Finance Group** — Abdelaziz (CEO) & Fayssal (CTO). Local Leaders, Arc France/Europe chapter. Building the financial OS for USDC-EURC commerce on Arc.
 
 [themeridian.finance](https://themeridian.finance) · [firmata.ai](https://firmata.ai) · [arcagent.live](https://arcagent.live)
