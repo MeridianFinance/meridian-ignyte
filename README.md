@@ -39,14 +39,14 @@ flowchart TB
     CORE --> T2
     CORE --> T3
     CORE --> T4
-    T4 -. "live example" .-> CLAW["YieldClaw<br/>autonomous agent #262 · auto-compound<br/>payments settle, the agent handles the rest"]
+    T4 -. "live example" .-> CLAW["YieldClaw · live agent #262<br/>conversational shopping + treasury<br/>finds best price, pays, reports, KYA-verified"]
 ```
 
 ## The four submissions
 
 | Track | What we demonstrate | Core Meridian engine | Circle products | Folder |
 |---|---|---|---|---|
-| **4 — Agentic Economy** | A **live** autonomous agent (YieldClaw, agent #262) that discovers, settles in USDC-EURC and auto-compounds, every counterparty verified on-chain (KYA). Payments settle, the agent handles the rest. | Firmata + Agent OS + YieldClaw | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
+| **4 — Agentic Economy** | **YieldClaw** (live agent #262): talk to it in plain language, it checks your balance, finds the best price across merchants, pays in USDC-EURC with zero gas, reports back, and verifies every counterparty via Firmata (KYA). Also runs treasury autonomously. | Firmata + Agent OS + YieldClaw | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
 | **1 — Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC-EURC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
 | **2 — SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC-EURC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
 | **3 — RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC-EURC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
