@@ -4,7 +4,8 @@
 
 *Part of [Meridian × Ignyte](../README.md). For educational and testnet demo purposes only.*
 
-**Live demo:** https://pay.themeridian.finance/agent
+**Live agent activity feed:** https://arcagent.live
+**Demo:** the agent screenshots and on-chain identity below, plus the overview video. The agent page itself is in private access for now, open to the Circle and Arc team.
 **Track:** 4, Best Agentic Economy Experience on Arc
 **Circle products used:** USDC · EURC · Circle Wallets · Nanopayments · Gateway
 
@@ -60,21 +61,23 @@ flowchart LR
 
 Anyone can wire an agent to a payment SDK. The hard part is **trust**: when an agent pays a merchant it has never met, who verifies the merchant is legitimate and the payment is warranted? YieldClaw answers that with Firmata, on-chain identity and reputation, checked before settlement. Payments settle; the trust layer decides who is allowed to be paid. That is the difference between an agent that *moves money* and an agent you can *let loose*.
 
-## Setup & run
+## Proof it is live
 
-> _To be completed by the Meridian engineering team with the exact local setup steps + Circle key configuration before the public flip at submission._
->
-> - Prerequisites (Node, env vars, Circle API keys)
-> - Install + run the demo locally
-> - How to point it at Arc Testnet + the deployed contracts
-> - How to reproduce a purchase end to end
+The agent page, top and bottom:
 
-## Circle Product Feedback
+![YieldClaw agent, top of the page](../assets/agent-page-top.png)
+![YieldClaw agent, bottom of the page](../assets/agent-page-bottom.png)
 
-**Why we chose these products**, USDC and EURC give us regulated, dollar- and euro-denominated settlement; Circle Wallets let an agent transact safely on a user's behalf; Nanopayments and USDC-as-gas on Arc make machine-frequency agent payments economically viable in a way card rails cannot match.
+The agent has a real on-chain identity. The AgentIdentity registry (ERC-8004) is live and public on Arc Testnet:
 
-**What worked well**, _[team to add: concrete dev experience notes]_
+**AgentIdentity (ERC-8004):** [`0x8004A818BFB912233c491871b3d84c89A494BD9e`](https://testnet.arcscan.app/address/0x8004A818BFB912233c491871b3d84c89A494BD9e)
 
-**What could be improved**, _[team to add]_
+![On-chain agent identity on Arcscan](../assets/agent-onchain.png)
 
-**Recommendations**, _[team to add: e.g. agent-specific wallet primitives, batching ergonomics for high-frequency agent flows]_
+## Run it
+
+The flows are shown in the screenshots above and the overview video. The live agent page is in private access for now, open to the Circle and Arc team. The production protocol source stays private. The demo calls Meridian's already-deployed contracts on Arc (addresses public on testnet.arcscan.app), and references Firmata at the standard level (ERC-8004 identity and reputation).
+
+## Circle product feedback
+
+See [`../docs/circle-feedback.md`](../docs/circle-feedback.md) for our notes on USDC, EURC, Circle Wallets, Nanopayments and Gateway in production.

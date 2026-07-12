@@ -5,7 +5,7 @@
 *Part of [Meridian × Ignyte](../README.md). For educational and testnet demo purposes only.*
 
 **Live trust layer:** https://firmata.ai
-**Settlement demo:** https://pay.themeridian.finance
+**Demo:** the Firmata screenshots below. The settlement and merchant surfaces are in private access for now, open to the Circle and Arc team.
 **Track:** 2, SME Trade Finance
 **Circle products used:** USDC · EURC · Circle Wallets · Gateway · USYC\*
 
@@ -52,7 +52,8 @@ A credit score locked inside one lender helps that lender, not the business. A r
 
 ## Proof it is live
 
-![Firmata trust layer](../assets/track-2-firmata.png)
+![Firmata landing](../assets/firmata-landing.png)
+![Firmata dashboard](../assets/firmata-dashboard.png)
 
 Firmata runs on Arc and Base. Meridian's contracts are live on Arc Testnet (chain 5042002), addresses public on [testnet.arcscan.app](https://testnet.arcscan.app). The escrow and reputation are referenced at the standard level; internal evaluator logic stays private.
 

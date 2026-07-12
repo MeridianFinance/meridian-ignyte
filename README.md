@@ -1,5 +1,3 @@
-<!-- ⚠️ DRAFT PRIVÉ, reste privé jusqu'à la submission Ignyte (~10-13 juillet). Flip public au moment de soumettre. Ne pas pousser public avant. -->
-
 <div align="center">
 
 <img src="assets/banner.png" alt="Meridian × Ignyte" width="100%" />
@@ -53,6 +51,17 @@ flowchart TB
 
 \* USYC and StableFX are Circle Enterprise / gated tools. Where testnet access is pending, the integration is shown at architecture and conceptual level, per the challenge rules.
 
+## See it running
+
+Two surfaces are already public: the trust layer at firmata.ai and the live agent activity feed at arcagent.live. Our main product app (payments, agent, vault) is in private access for now, open to the Circle and Arc team we are working with, with a new version moving from dev to production. The videos below show those flows end to end, and every contract is public and verifiable on Arcscan.
+
+- **Trust layer (live):** https://firmata.ai
+- **Agent activity feed (live):** https://arcagent.live
+- **Overview walkthrough (video):** https://youtu.be/b7Ww4dd5ntU
+- **Passkey login and USYC vault deposit (video):** https://youtu.be/9gvkIriycQU
+- **Meridian Pay checkout (video):** https://youtu.be/mtd9dHMEdLk
+- **Everything verifiable on-chain:** https://testnet.arcscan.app
+
 ## Built on production, not built for the demo
 
 - **19 contracts** live on Arc Testnet (chain id 5042002), verifiable on [testnet.arcscan.app](https://testnet.arcscan.app)
@@ -79,16 +88,15 @@ This is a working ecosystem with eight months of on-chain history, not a hackath
 ```
 meridian-ignyte/
 ├── README.md                 ← you are here (the connected-stack story)
-├── track-1-crossborder/      ← MVP + setup + Circle integration docs + diagram
+├── track-1-crossborder/      ← README, live demo, architecture diagram, Circle integration
 ├── track-2-trade/
 ├── track-3-rwa/
 ├── track-4-agentic/
 └── docs/
-    ├── architecture/         ← per-track architecture diagrams
-    └── circle-feedback.md    ← Circle Product Feedback (shared + per-track)
+    └── circle-feedback.md    ← Circle Product Feedback across the stack
 ```
 
-Each track folder is a self-contained, runnable submission with its own README, setup instructions, and Circle-integration documentation.
+Each track folder is a self-contained submission: its own README, the live demo, an architecture diagram, and the Circle integration.
 
 ## Circle Developer Account
 

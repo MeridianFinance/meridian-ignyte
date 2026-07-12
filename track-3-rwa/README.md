@@ -4,7 +4,7 @@
 
 *Part of [Meridian × Ignyte](../README.md). For educational and testnet demo purposes only.*
 
-**Live demo:** https://themeridian.finance (deposit into the YieldVault)
+**Demo:** the vault deposit video below. Site: https://themeridian.finance (the product pages are in private access for now).
 **Track:** 3, RWA Tokenization
 **Circle products used:** USDC · EURC · Circle Wallets · USYC (whitelisted, live)
 
@@ -59,7 +59,7 @@ Two things most entries will not have: a real Circle RWA product in production (
 
 ## Proof it is live
 
-![YieldVault deposit](../assets/track-3-vault-deposit.png)
+**Watch a passkey login and a USYC vault deposit end to end:** https://youtu.be/9gvkIriycQU
 
 19 contracts live on Arc Testnet (chain 5042002), addresses public on [testnet.arcscan.app](https://testnet.arcscan.app). Building since day one of Testnet, October 28, 2025.
 

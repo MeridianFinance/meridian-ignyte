@@ -4,7 +4,7 @@
 
 *Part of [Meridian × Ignyte](../README.md). For educational and testnet demo purposes only.*
 
-**Live demo:** https://pay.themeridian.finance (Meridian Pay, AI checkout)
+**Demo:** the checkout video below. The live page is in private access for now, open to the Circle and Arc team.
 **Track:** 1, Cross-Border UAE to Global
 **Circle products used:** USDC · EURC · Circle Wallets · CCTP · Gateway · StableFX\*
 
@@ -55,13 +55,13 @@ Moving a token is the easy part. The hard part of cross-border is trust and comp
 
 ## Proof it is live
 
-![Meridian Pay AI checkout](../assets/track-1-pay-checkout.png)
+**Watch a payment settle through the Meridian Pay checkout:** https://youtu.be/mtd9dHMEdLk
 
-Deposit and payment flows run on Meridian's deployed contracts on Arc Testnet (chain 5042002), addresses public on [testnet.arcscan.app](https://testnet.arcscan.app). 19 contracts live, 47,800+ transactions since day one of Testnet, October 28, 2025.
+Payment flows run on Meridian's deployed contracts on Arc Testnet (chain 5042002), addresses public on [testnet.arcscan.app](https://testnet.arcscan.app). 19 contracts live, 47,800+ transactions since day one of Testnet, October 28, 2025.
 
 ## Run it
 
-The demo is live at the URL above, no local setup needed to see it work. The production protocol source stays private. The demo calls our already-deployed contracts and shows the Circle integration end to end.
+The flow is shown in the checkout video above. The live page is in private access for now, open to the Circle and Arc team. The production protocol source stays private. The demo calls our already-deployed contracts on Arc and shows the Circle integration end to end.
 
 ## Circle product feedback
 
