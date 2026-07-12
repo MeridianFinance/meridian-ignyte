@@ -52,8 +52,10 @@ A credit score locked inside one lender helps that lender, not the business. A r
 
 ## Proof it is live
 
-![Firmata landing](../assets/firmata-landing.png)
-![Firmata dashboard](../assets/firmata-dashboard.png)
+![Firmata landing](../assets/firmataProtocol-landing.png)
+![Firmata dashboard](../assets/firmataProtocol-dashboard1.png)
+![Firmata escrow, demo 1](../assets/firmataProtocol-dashboard-demo1.png)
+![Firmata escrow, demo 2](../assets/firmataProtocol-dashboard-demo2.png)
 
 Firmata runs on Arc and Base. Meridian's contracts are live on Arc Testnet (chain 5042002), addresses public on [testnet.arcscan.app](https://testnet.arcscan.app). The escrow and reputation are referenced at the standard level; internal evaluator logic stays private.
 

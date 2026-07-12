@@ -65,14 +65,12 @@ Anyone can wire an agent to a payment SDK. The hard part is **trust**: when an a
 
 The agent page, top and bottom:
 
-![YieldClaw agent, top of the page](../assets/agent-page-top.png)
-![YieldClaw agent, bottom of the page](../assets/agent-page-bottom.png)
+![YieldClaw agent, top of the page](../assets/Agent-dashboard1.png)
+![YieldClaw agent, bottom of the page](../assets/Agent-dashboard2.png)
 
 The agent has a real on-chain identity. The AgentIdentity registry (ERC-8004) is live and public on Arc Testnet:
 
 **AgentIdentity (ERC-8004):** [`0x8004A818BFB912233c491871b3d84c89A494BD9e`](https://testnet.arcscan.app/address/0x8004A818BFB912233c491871b3d84c89A494BD9e)
-
-![On-chain agent identity on Arcscan](../assets/agent-onchain.png)
 
 ## Run it
 
