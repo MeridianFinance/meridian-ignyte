@@ -1,4 +1,4 @@
-<!-- ⚠️ DRAFT PRIVÉ — reste privé jusqu'à la submission Ignyte (~10-13 juillet). Flip public au moment de soumettre. Ne pas pousser public avant. -->
+<!-- ⚠️ DRAFT PRIVÉ, reste privé jusqu'à la submission Ignyte (~10-13 juillet). Flip public au moment de soumettre. Ne pas pousser public avant. -->
 
 <div align="center">
 
@@ -6,7 +6,7 @@
 
 <br/><br/>
 
-# Meridian — The USDC-EURC Commerce OS on Arc
+# Meridian: The USDC-EURC Commerce OS on Arc
 
 **One connected stack. Four doorways into the same economy.**
 
@@ -25,7 +25,7 @@ That is the whole point: **not stacked products, connected ones.** A merchant ac
 
 ```mermaid
 flowchart TB
-    subgraph CORE["THE MERIDIAN STACK — shared primitives"]
+    subgraph CORE["THE MERIDIAN STACK, shared primitives"]
         PAY["Meridian Pay<br/>USDC settlement"]
         VAULT["YieldVault USYC<br/>treasury + yield"]
         STREAM["PaymentStream<br/>continuous payouts"]
@@ -46,10 +46,10 @@ flowchart TB
 
 | Track | What we demonstrate | Core Meridian engine | Circle products | Folder |
 |---|---|---|---|---|
-| **4 — Agentic Economy** | **YieldClaw** (live agent #262): talk to it in plain language, it checks your balance, finds the best price across merchants, pays in USDC-EURC with zero gas, reports back, and verifies every counterparty via Firmata (KYA). Also runs treasury autonomously. | Firmata + Agent OS + YieldClaw | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
-| **1 — Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC-EURC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
-| **2 — SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC-EURC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
-| **3 — RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC-EURC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
+| **4, Agentic Economy** | **YieldClaw** (live agent #262): talk to it in plain language, it checks your balance, finds the best price across merchants, pays in USDC-EURC with zero gas, reports back, and verifies every counterparty via Firmata (KYA). Also runs treasury autonomously. | Firmata + Agent OS + YieldClaw | USDC-EURC · Wallets · Nanopayments · Gateway | [`/track-4-agentic`](./track-4-agentic) |
+| **1, Cross-Border UAE→Global** | Instant low-cost remittance + freelancer/payroll payouts, AED-in / USDC-settle, transparent fees and receipts | Pay + Wallets + CCTP | USDC-EURC · Wallets · Gateway · CCTP · StableFX* | [`/track-1-crossborder`](./track-1-crossborder) |
+| **2, SME Trade Finance** | Milestone-based escrow for import/export + an SME "credit passport" built from verifiable on-chain history | Firmata escrow (ERC-8183) + reputation | USDC-EURC · Wallets · Gateway · USYC* | [`/track-2-trade`](./track-2-trade) |
+| **3, RWA Tokenization (Sukuk)** | Fractional Sukuk with embedded Sharia + compliance logic, programmable profit distribution, investor checks | Vault USYC + tokenization | USDC-EURC · Wallets · USYC* | [`/track-3-rwa`](./track-3-rwa) |
 
 \* USYC and StableFX are Circle Enterprise / gated tools. Where testnet access is pending, the integration is shown at architecture and conceptual level, per the challenge rules.
 
@@ -63,13 +63,13 @@ flowchart TB
 
 The MVPs in this repo are clean demonstration builds. The production protocol source stays private; the demos call our already-deployed contracts and show our Circle integration end to end.
 
-## Beyond the four tracks — the full ecosystem
+## Beyond the four tracks: the full ecosystem
 
 The four submissions above are slices of a larger stack we already run. We are not naming these as track entries (they fall outside this challenge's scope), but judges asked to see who we really are, so here is the rest of the picture.
 
 - **Enterprise Circle tools, in production, not conceptual.** USYC (Teller whitelist) and StableFX have been live in our stack since 2025. The challenge rules note that most teams will only be able to integrate these gated tools at a conceptual level. We operate with real access already, which is why our RWA and FX flows are demonstrated with the actual products rather than mockups.
-- **Meridian Give** — a charitable-giving layer: merchant round-up at checkout and on-chain donation proofs. It is not a commerce/finance/agentic track, so it is not submitted here, but it is part of the same connected OS and shows the breadth of what the stack powers.
-- **cirBTC support** — we integrate Circle's tokenized BTC alongside stablecoins, broadening treasury and collateral options. Out of scope for a stablecoin commerce challenge, included here only to show Circle-product breadth.
+- **Meridian Give**, a charitable-giving layer: merchant round-up at checkout and on-chain donation proofs. It is not a commerce/finance/agentic track, so it is not submitted here, but it is part of the same connected OS and shows the breadth of what the stack powers.
+- **cirBTC support**, we integrate Circle's tokenized BTC alongside stablecoins, broadening treasury and collateral options. Out of scope for a stablecoin commerce challenge, included here only to show Circle-product breadth.
 - **20 Circle products** integrated across the stack in production. The four tracks use a focused subset; the full ecosystem reaches much further.
 
 This is a working ecosystem with eight months of on-chain history, not a hackathon-weekend prototype. The four tracks are where it meets this challenge's themes.
@@ -96,6 +96,6 @@ Email: `abdelmouss63@gmail.com`
 
 ## Team
 
-**Meridian Finance Group** — Abdelaziz (CEO) & Fayssal (CTO). Local Leaders, Arc France/Europe chapter. Building the financial OS for USDC-EURC commerce on Arc.
+**Meridian Finance Group**, Abdelaziz (CEO) & Fayssal (CTO). Local Leaders, Arc France/Europe chapter. Building the financial OS for USDC-EURC commerce on Arc.
 
 [themeridian.finance](https://themeridian.finance) · [firmata.ai](https://firmata.ai) · [arcagent.live](https://arcagent.live)

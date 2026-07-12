@@ -1,11 +1,11 @@
-# Track 4 — Agentic Economy · YieldClaw
+# Track 4: Agentic Economy · YieldClaw
 
 **Talk to it like a person. It shops for you, pays in stablecoins, and reports back.**
 
 *Part of [Meridian × Ignyte](../README.md). For educational and testnet demo purposes only.*
 
 **Live demo:** https://pay.themeridian.finance/agent
-**Track:** 4 — Best Agentic Economy Experience on Arc
+**Track:** 4, Best Agentic Economy Experience on Arc
 **Circle products used:** USDC · EURC · Circle Wallets · Nanopayments · Gateway
 
 ---
@@ -22,12 +22,12 @@ YieldClaw then:
 
 1. **Understands** the request in natural language.
 2. **Checks your balance** (USDC / EURC) on Arc.
-3. **Finds the best option** — the right item, the best merchant, the lowest price.
+3. **Finds the best option**, the right item, the best merchant, the lowest price.
 4. **Funds if needed** and **pays the merchant** in USDC or EURC, with **zero gas** and **instant, deterministic settlement** on Arc.
-5. **Verifies the counterparty** through Firmata before releasing payment — identity and reputation checked on-chain (Know Your Agent).
+5. **Verifies the counterparty** through Firmata before releasing payment, identity and reputation checked on-chain (Know Your Agent).
 6. **Reports back** with a clear summary of what it bought, where, and for how much.
 
-The same agent also runs **treasury operations autonomously** — the shopping flow is the demonstration for this track; the broader role is "give it a goal, the agent handles the rest."
+The same agent also runs **treasury operations autonomously**, the shopping flow is the demonstration for this track; the broader role is "give it a goal, the agent handles the rest."
 
 ## Why it fits Track 4
 
@@ -48,17 +48,17 @@ flowchart LR
 
 ## How we integrate Circle tools
 
-- **USDC & EURC** — the settlement rails. Every purchase is paid and settled in Circle stablecoins on Arc.
-- **Circle Wallets** — secure key management so the agent can check balances and initiate payments on the user's behalf without exposing keys.
-- **Nanopayments** — enables high-frequency, low-value, sub-cent agent payments at machine speed.
-- **Gateway** — backend liquidity and routing for the payment flows the agent orchestrates.
-- **Gas paid in USDC on Arc** — predictable, dollar-denominated cost; the user never touches a separate gas token.
+- **USDC & EURC**, the settlement rails. Every purchase is paid and settled in Circle stablecoins on Arc.
+- **Circle Wallets**, secure key management so the agent can check balances and initiate payments on the user's behalf without exposing keys.
+- **Nanopayments**, enables high-frequency, low-value, sub-cent agent payments at machine speed.
+- **Gateway**, backend liquidity and routing for the payment flows the agent orchestrates.
+- **Gas paid in USDC on Arc**, predictable, dollar-denominated cost; the user never touches a separate gas token.
 
 > Production protocol source stays private. This folder documents the integration and the demo; the agent calls Meridian's already-deployed contracts on Arc (addresses public on testnet.arcscan.app). Firmata is referenced at the standard level (ERC-8004 identity + reputation); internal evaluator/SLA logic is not exposed.
 
 ## What makes this defensible
 
-Anyone can wire an agent to a payment SDK. The hard part is **trust**: when an agent pays a merchant it has never met, who verifies the merchant is legitimate and the payment is warranted? YieldClaw answers that with Firmata — on-chain identity and reputation, checked before settlement. Payments settle; the trust layer decides who is allowed to be paid. That is the difference between an agent that *moves money* and an agent you can *let loose*.
+Anyone can wire an agent to a payment SDK. The hard part is **trust**: when an agent pays a merchant it has never met, who verifies the merchant is legitimate and the payment is warranted? YieldClaw answers that with Firmata, on-chain identity and reputation, checked before settlement. Payments settle; the trust layer decides who is allowed to be paid. That is the difference between an agent that *moves money* and an agent you can *let loose*.
 
 ## Setup & run
 
@@ -71,10 +71,10 @@ Anyone can wire an agent to a payment SDK. The hard part is **trust**: when an a
 
 ## Circle Product Feedback
 
-**Why we chose these products** — USDC and EURC give us regulated, dollar- and euro-denominated settlement; Circle Wallets let an agent transact safely on a user's behalf; Nanopayments and USDC-as-gas on Arc make machine-frequency agent payments economically viable in a way card rails cannot match.
+**Why we chose these products**, USDC and EURC give us regulated, dollar- and euro-denominated settlement; Circle Wallets let an agent transact safely on a user's behalf; Nanopayments and USDC-as-gas on Arc make machine-frequency agent payments economically viable in a way card rails cannot match.
 
-**What worked well** — _[team to add: concrete dev experience notes]_
+**What worked well**, _[team to add: concrete dev experience notes]_
 
-**What could be improved** — _[team to add]_
+**What could be improved**, _[team to add]_
 
-**Recommendations** — _[team to add: e.g. agent-specific wallet primitives, batching ergonomics for high-frequency agent flows]_
+**Recommendations**, _[team to add: e.g. agent-specific wallet primitives, batching ergonomics for high-frequency agent flows]_
