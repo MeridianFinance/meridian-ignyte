@@ -68,6 +68,10 @@ The agent page, top and bottom:
 ![YieldClaw agent, top of the page](../assets/Agent-dashboard1.png)
 ![YieldClaw agent, bottom of the page](../assets/Agent-dashboard2.png)
 
+The agent lives inside Meridian Pay. You chat with it, and it has direct, permissioned access to your wallet, so you can buy anything you want and it settles instantly on-chain in USDC or EURC. It runs 24/7, it is fast, it finds the best offers and the best delivery times, and every merchant it pays carries an on-chain verified badge. You configure the agent from the Meridian Pay dashboard.
+
+![Chat with the agent inside Meridian Pay, wallet-connected](../assets/Agent-pay-chat.png)
+
 The agent has a real on-chain identity. The AgentIdentity registry (ERC-8004) is live and public on Arc Testnet:
 
 **AgentIdentity (ERC-8004):** [`0x8004A818BFB912233c491871b3d84c89A494BD9e`](https://testnet.arcscan.app/address/0x8004A818BFB912233c491871b3d84c89A494BD9e)
