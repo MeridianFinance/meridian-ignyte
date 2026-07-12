@@ -72,6 +72,41 @@ Two surfaces are already public: the trust layer at firmata.ai and the live agen
 
 The MVPs in this repo are clean demonstration builds. The production protocol source stays private; the demos call our already-deployed contracts and show our Circle integration end to end.
 
+## Contracts on Arc Testnet, all verifiable
+
+Every contract below is live on Arc Testnet (chain 5042002) and public on Arcscan. Click any address to verify it. These are the core contracts behind the four tracks; the full stack runs 19 contracts on Arc.
+
+**Treasury and RWA (Track 3)**
+
+| Contract | Address |
+|---|---|
+| YieldVault V3, retail | [`0x2f685b5Ef138Ac54F4CB1155A9C5922c5A58eD25`](https://testnet.arcscan.app/address/0x2f685b5Ef138Ac54F4CB1155A9C5922c5A58eD25) |
+| Enterprise USYC Vault | [`0xdae34fcc36d0772f6e04674971f798fa01bd0538`](https://testnet.arcscan.app/address/0xdae34fcc36d0772f6e04674971f798fa01bd0538) |
+| USYC Timelock, 24h governance | [`0x9f3856dF5CE0797aEe7FaE3E13794d4d52f9eB40`](https://testnet.arcscan.app/address/0x9f3856dF5CE0797aEe7FaE3E13794d4d52f9eB40) |
+
+**Payments and cross-border (Track 1)**
+
+| Contract | Address |
+|---|---|
+| PaymentStream V3 | [`0x1fcb750413067Ba96Ea80B018b304226AB7365C6`](https://testnet.arcscan.app/address/0x1fcb750413067Ba96Ea80B018b304226AB7365C6) |
+| GatewayReceiver, CCTP V2 + Circle Gateway | [`0x8B412f7cAfA72482BE146268C4AD57231D8282cF`](https://testnet.arcscan.app/address/0x8B412f7cAfA72482BE146268C4AD57231D8282cF) |
+| x402 Receiver, HTTP nanopayments | [`0x68ebe8f653f7a99cd8590f212818d2b60fdb3cac`](https://testnet.arcscan.app/address/0x68ebe8f653f7a99cd8590f212818d2b60fdb3cac) |
+
+**Trust and agents (Tracks 2 and 4), Firmata Protocol**
+
+| Contract | Address |
+|---|---|
+| IdentityRegistry, ERC-8004 | [`0x8004A818BFB912233c491871b3d84c89A494BD9e`](https://testnet.arcscan.app/address/0x8004A818BFB912233c491871b3d84c89A494BD9e) |
+| ReputationRegistry, ERC-8004 | [`0x8004B663056A597Dffe9eCcC1965A193B7388713`](https://testnet.arcscan.app/address/0x8004B663056A597Dffe9eCcC1965A193B7388713) |
+| ValidationRegistry, ERC-8004 | [`0x8004Cb1BF31DAf7788923b405b754f57acEB4272`](https://testnet.arcscan.app/address/0x8004Cb1BF31DAf7788923b405b754f57acEB4272) |
+| FirmataCommerce, ERC-8183 | [`0xc91ab8c8c9d1879357e1c8cd60a936643f447417`](https://testnet.arcscan.app/address/0xc91ab8c8c9d1879357e1c8cd60a936643f447417) |
+| FirmataEvaluatorV2 | [`0x0e55949531ba5bacbfa45c186cdcb9811d23c978`](https://testnet.arcscan.app/address/0x0e55949531ba5bacbfa45c186cdcb9811d23c978) |
+| FirmataSLAHook | [`0x99c539ec88851980f05d42c90b18f122f1c01dad`](https://testnet.arcscan.app/address/0x99c539ec88851980f05d42c90b18f122f1c01dad) |
+| FirmataReputationV2 | [`0xacb1f85bce0731d2bcb0e0788c88e45eba7a72ad`](https://testnet.arcscan.app/address/0xacb1f85bce0731d2bcb0e0788c88e45eba7a72ad) |
+| FirmataSLA | [`0x8b1fb35f25c799aa4dc8460f83b4b7a86f0f7854`](https://testnet.arcscan.app/address/0x8b1fb35f25c799aa4dc8460f83b4b7a86f0f7854) |
+| FirmataUsageLog | [`0x4bf87626da383230eb663988e45975f3e9772003`](https://testnet.arcscan.app/address/0x4bf87626da383230eb663988e45975f3e9772003) |
+| MeridianProof, cross-chain agent identity (SBT) | [`0x7ED960c5437007C63Ea954BB01BBd36396F46490`](https://testnet.arcscan.app/address/0x7ED960c5437007C63Ea954BB01BBd36396F46490) |
+
 ## Beyond the four tracks: the full ecosystem
 
 The four submissions above are slices of a larger stack we already run. We are not naming these as track entries (they fall outside this challenge's scope), but judges asked to see who we really are, so here is the rest of the picture.
